@@ -19,8 +19,8 @@
          <nav class="nav">
             <a class="nav-logo logo link" href="./index.html">Web<span class="span">Studio</span></a>
             <ul class="nav-list list">
-               <li class="nav-list list">
-                  <a class="nav-btn link" href="./index.html">Studio</a>
+               <li class="nav-list list ">
+                  <a class="nav-btn link nav-line" href="./index.html">Studio</a>
                </li>
                <li class="nav-list list">
                   <a class="nav-btn link" href="./portfolio.html">Portfolio</a>
@@ -360,10 +360,17 @@
          </div>
       </div>
    </footer>
+   <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+         <button class="modal-close-btn data-modal-close" type="button">
+            <svg class="modal-icon" width="8" height="8">
+               <use href="./images/icons.svg#icon-close-back">
 
-<div class="backdrop" data-modal>
-   <div class="modal-window"></div>
-</div>
+               </use>
+            </svg>
+         </button>
+      </div>
+   </div>
 
 <script src="./js/modal.js"></script>
 </body>
